@@ -1,12 +1,22 @@
-﻿<Window x:Class="RIS.PAGE.SYST.Denglu"
+﻿<Controls:MetroWindow  x:Class="RIS.PAGE.SYST.Denglu"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RIS.PAGE.SYST"
         mc:Ignorable="d"
-        Title="Denglu" Height="300" Width="300">
+        Title="HSWRIS" Height="235" Width="338" Icon="/RIS;component/RESOURCE/PIC/图标.ico" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Grid Margin="115,55,0,0" HorizontalAlignment="Left" Width="159" Height="57" VerticalAlignment="Top">
+            <Label x:Name="label" Content="账号" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Label x:Name="label1" Content="密码" HorizontalAlignment="Left" Margin="0,31,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="zhanghaoUI" HorizontalAlignment="Left" Height="23" Margin="39,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+            <PasswordBox x:Name="mimaUI" HorizontalAlignment="Left" Margin="39,31,0,0" VerticalAlignment="Top" Width="120"/>
+
+        </Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="57" Margin="40,55,0,0" VerticalAlignment="Top" Width="57" Source="/RIS;component/RESOURCE/PIC/印章.png"/>
+        <Button  x:Name="dengluUI"  Click="dengluUI_Click" Content="登录" HorizontalAlignment="Left" Margin="115,140,0,0" VerticalAlignment="Top" Width="159" FontFamily="Microsoft YaHei UI" FontSize="12"/>
+
     </Grid>
-</Window>
+</Controls:MetroWindow>

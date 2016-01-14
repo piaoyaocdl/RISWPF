@@ -17,11 +17,17 @@ namespace RIS.PAGE.SYST
     /// <summary>
     /// Denglu.xaml 的交互逻辑
     /// </summary>
-    public partial class Denglu : Window
+    public partial class Denglu 
     {
         public Denglu()
         {
             InitializeComponent();
+        }
+
+        //登陆事件
+        private void dengluUI_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
