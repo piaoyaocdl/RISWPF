@@ -78,8 +78,81 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Gongju.cs" />
+    <Compile Include="KONGJIAN\Feye.xaml.cs">
+      <DependentUpon>Feye.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KONGJIAN\Liebiaokongzhi.xaml.cs">
+      <DependentUpon>Liebiaokongzhi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KONGJIAN\MyPage.cs" />
+    <Compile Include="Migrations\201601150339327_j.cs" />
+    <Compile Include="Migrations\201601150339327_j.Designer.cs">
+      <DependentUpon>201601150339327_j.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601150620118_ji.cs" />
+    <Compile Include="Migrations\201601150620118_ji.Designer.cs">
+      <DependentUpon>201601150620118_ji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601150645317_fewfw.cs" />
+    <Compile Include="Migrations\201601150645317_fewfw.Designer.cs">
+      <DependentUpon>201601150645317_fewfw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601150842283_fefe.cs" />
+    <Compile Include="Migrations\201601150842283_fefe.Designer.cs">
+      <DependentUpon>201601150842283_fefe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601150852051_few.cs" />
+    <Compile Include="Migrations\201601150852051_few.Designer.cs">
+      <DependentUpon>201601150852051_few.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601150855246_fe.cs" />
+    <Compile Include="Migrations\201601150855246_fe.Designer.cs">
+      <DependentUpon>201601150855246_fe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201601150915071_hu.cs" />
+    <Compile Include="Migrations\201601150915071_hu.Designer.cs">
+      <DependentUpon>201601150915071_hu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="PAGE\LINCHUANGHLA\JIANCEDAN\Tianjiashenqingdan.xaml.cs">
+      <DependentUpon>Tianjiashenqingdan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAGE\SYST\Gerenzhongxin.xaml.cs">
+      <DependentUpon>Gerenzhongxin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAGE\SYST\Zhuchuangti.xaml.cs">
+      <DependentUpon>Zhuchuangti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PAGE\LINCHUANGHLA\JIANCEDAN\Jiancedanxinxi.xaml.cs">
+      <DependentUpon>Jiancedanxinxi.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Shujuku.cs" />
+    <Page Include="KONGJIAN\Feye.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KONGJIAN\Liebiaokongzhi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAGE\LINCHUANGHLA\JIANCEDAN\Tianjiashenqingdan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PAGE\SYST\Denglu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAGE\SYST\Gerenzhongxin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAGE\SYST\Zhuchuangti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PAGE\LINCHUANGHLA\JIANCEDAN\Jiancedanxinxi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -101,6 +174,27 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Migrations\201601150339327_j.resx">
+      <DependentUpon>201601150339327_j.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601150620118_ji.resx">
+      <DependentUpon>201601150620118_ji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601150645317_fewfw.resx">
+      <DependentUpon>201601150645317_fewfw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601150842283_fefe.resx">
+      <DependentUpon>201601150842283_fefe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601150852051_few.resx">
+      <DependentUpon>201601150852051_few.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601150855246_fe.resx">
+      <DependentUpon>201601150855246_fe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201601150915071_hu.resx">
+      <DependentUpon>201601150915071_hu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -120,6 +214,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="RESOURCE\PIC\印章.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CESHI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="RESOURCE\PIC\条纹.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

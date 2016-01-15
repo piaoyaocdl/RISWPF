@@ -1,0 +1,73 @@
+﻿<KONGJIAN:MyPage
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RIS.PAGE.LINCHUANGHLA.JIANCEDAN"
+      xmlns:KONGJIAN="clr-namespace:RIS.KONGJIAN" x:Class="RIS.PAGE.LINCHUANGHLA.JIANCEDAN.Jiancedanxinxi"
+      mc:Ignorable="d" IsVisibleChanged="Page_IsVisibleChanged"
+      MinHeight="600" Width="1100"
+      Title="Jiancedanxinxi">
+
+    <StackPanel >
+        <Label x:Name="label" Content="检测单信息" FontSize="20" />
+        <Rectangle Height="2">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="-90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="#FF003AFF" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFC8D4FB" Offset="0.117"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Margin="0,10,0,0" Orientation="Horizontal">
+            <Label x:Name="label1" Content="检测单日期"/>
+            <DatePicker  Width="120"/>
+            <Label x:Name="label1_Copy" Content="至"/>
+            <DatePicker Width="120"/>
+            <Label x:Name="label1_Copy1" Content="患者姓名" Margin="10,0,0,0"/>
+            <TextBox x:Name="textBox" Height="22" TextWrapping="Wrap" Text="" Width="90"/>
+            <Label x:Name="label1_Copy2" Content="编号" Margin="10,0,0,0"/>
+            <TextBox x:Name="textBox_Copy" Height="22" TextWrapping="Wrap" Text="" Width="86"/>
+            <Label x:Name="label2" Content="" Width="160"/>
+            <KONGJIAN:Feye/>
+
+        </StackPanel>
+        <Label x:Name="label3" Content="---- 检测单列表 ----" Margin="0,10,0,0" FontSize="15"/>
+        <DataGrid x:Name="dataGrid" MinHeight="200">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="编号"/>
+                <DataGridTextColumn Header="患者姓名"/>
+                <DataGridTextColumn Header="性别"/>
+                <DataGridTextColumn Header="出生日期"/>
+                <DataGridTextColumn Header="身份证号"/>
+                <DataGridTextColumn Header="临床诊断"/>
+                <DataGridTextColumn Header="门诊/住院"/>
+                <DataGridTextColumn Header="床号"/>
+                <DataGridTextColumn Header="申请医院"/>
+                <DataGridTextColumn Header="申请医生"/>
+                <DataGridTextColumn Header="采样日期"/>
+                <DataGridTextColumn Header="住院号"/>
+                <DataGridTextColumn Header="报告发送方式"/>
+                <DataGridTextColumn Header="联系方式"/>
+                <DataGridTextColumn Header="收样者"/>
+                <DataGridTextColumn Header="收样日期"/>
+                <DataGridTextColumn Header="检测单日期"/>
+                <DataGridTextColumn Header="备注"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid   Margin="0,5,0,0">
+            <KONGJIAN:Liebiaokongzhi HorizontalAlignment="Right" Tianjia_Click="shenqingdanliebiao_Tianjia_Click" Xiugai_Click="shenqingdanliebiao_Xiugai_Click" Shanchu_Click="shenqingdanliebiao_Shanchu_Click" />
+
+        </Grid>
+
+    </StackPanel>
+</KONGJIAN:MyPage>

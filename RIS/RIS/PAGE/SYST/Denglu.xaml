@@ -11,8 +11,8 @@
         <Grid Margin="115,55,0,0" HorizontalAlignment="Left" Width="159" Height="57" VerticalAlignment="Top">
             <Label x:Name="label" Content="账号" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <Label x:Name="label1" Content="密码" HorizontalAlignment="Left" Margin="0,31,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="zhanghaoUI" HorizontalAlignment="Left" Height="23" Margin="39,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-            <PasswordBox x:Name="mimaUI" HorizontalAlignment="Left" Margin="39,31,0,0" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="zhanghaoUI" HorizontalAlignment="Left" Height="23" Margin="39,0,0,0" TextWrapping="Wrap" Text="guanliyuan" VerticalAlignment="Top" Width="120"/>
+            <PasswordBox x:Name="mimaUI" HorizontalAlignment="Left" Password="ceshi" Margin="39,31,0,0" VerticalAlignment="Top" Width="120"/>
 
         </Grid>
         <Image x:Name="image" HorizontalAlignment="Left" Height="57" Margin="40,55,0,0" VerticalAlignment="Top" Width="57" Source="/RIS;component/RESOURCE/PIC/印章.png"/>

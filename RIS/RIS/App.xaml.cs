@@ -13,5 +13,6 @@ namespace RIS
     /// </summary>
     public partial class App : Application
     {
+        public static YonghuSet dangqianyonghu { set; get; }
     }
 }

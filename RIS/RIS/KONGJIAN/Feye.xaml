@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="RIS.KONGJIAN.Feye"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RIS.KONGJIAN"
+             mc:Ignorable="d" >
+    <StackPanel Orientation="Horizontal">
+        <Label x:Name="label" Content="共"/>
+        <Label x:Name="label_Copy" Content="几"/>
+        <Label x:Name="label_Copy1" Content="页。"/>
+        <Button x:Name="button" Content="&lt;&lt;" Width="40" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF008BFF" FontWeight="Bold" />
+        <Button x:Name="button_Copy" Content="&lt;" Width="40" Foreground="#FF008BFF" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="button_Copy1" Content="&gt;" Width="40" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF008BFF"/>
+        <Button x:Name="button_Copy2" Content="&gt;&gt;" Width="40" Foreground="#FF008BFF" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="button_Copy3" Content="查询" Width="75" FontFamily="Microsoft YaHei UI" FontSize="12"/>
+
+    </StackPanel>
+</UserControl>
