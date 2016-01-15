@@ -16,7 +16,7 @@
 
         </Grid>
         <Image x:Name="image" HorizontalAlignment="Left" Height="57" Margin="40,55,0,0" VerticalAlignment="Top" Width="57" Source="/RIS;component/RESOURCE/PIC/印章.png"/>
-        <Button  x:Name="dengluUI"  Click="dengluUI_Click" Content="登录" HorizontalAlignment="Left" Margin="115,140,0,0" VerticalAlignment="Top" Width="159" FontFamily="Microsoft YaHei UI" FontSize="12"/>
+        <Button  x:Name="dengluUI"  Click="dengluUI_Click" Content="登录" HorizontalAlignment="Left" Margin="115,140,0,0" VerticalAlignment="Top" Width="159"/>
 
     </Grid>
 </Controls:MetroWindow>

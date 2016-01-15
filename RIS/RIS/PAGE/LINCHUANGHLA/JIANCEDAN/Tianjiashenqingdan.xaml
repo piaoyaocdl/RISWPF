@@ -54,7 +54,7 @@
         </ComboBox>
         <TextBox x:Name="textBox_Copy8" HorizontalAlignment="Left" Height="24" Margin="123,279,0,0" TextWrapping="Wrap" Text="{Binding beizhu}" VerticalAlignment="Top" Width="611"/>
         <TextBox x:Name="textBox_Copy9" HorizontalAlignment="Left" Height="24" Margin="123,248,0,0" TextWrapping="Wrap" Text="{Binding linchuangzhenduan}" VerticalAlignment="Top" Width="367"/>
-        <Button x:Name="quedingUI" Click="quedingUI_Click" Content="确定" HorizontalAlignment="Left" Margin="614,325,0,0"  FontFamily="Microsoft YaHei UI" FontSize="12" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="quedingUI" Click="quedingUI_Click" Content="确定" HorizontalAlignment="Left" Margin="614,325,0,0"  VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Controls:MetroWindow>

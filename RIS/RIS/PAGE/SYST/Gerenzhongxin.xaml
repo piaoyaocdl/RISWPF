@@ -8,7 +8,7 @@
       Title="Gerenzhongxin">
 
     <StackPanel >
-        <Label x:Name="label" Content="个人中心" FontSize="20" />
+        <Label x:Name="label" Content="个人中心" FontSize="20" Background="{x:Null}" />
         <Rectangle Height="2">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -26,6 +26,18 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
+        <TabControl x:Name="tabControl" Height="100" TabStripPlacement="Left" >
+            <TabItem Header="测试" >
+                <Grid >
+                    <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="150,37,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="测试的" >
+                <Grid >
+                    <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="250,32,0,0" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </StackPanel>
 </Page>
